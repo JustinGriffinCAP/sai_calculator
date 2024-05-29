@@ -37,7 +37,7 @@ with tab2:
     
     #Married
     if m_status=="Married":
-               m_agi = st.slider("Parents Adjusted Gross Income",0,500000,50000,1000)
+               m_agi = st.slider("Parents Adjusted Gross Income",0,500000,50000,5000)
                m_tax =  st.slider("Income Tax Paid",0,100000,5000,1000)
                m_untaxed = st.slider("Untaxed Income Earned",0,250000,0,1000)
 
@@ -59,8 +59,8 @@ with tab2:
 with tab3:
      #Married 
      if m_status=="Married":
-          m_cash =  st.slider("Cash, Checkings, and Savings",0,250000,15000,1000)
-          m_investments = st.slider("Investments",0,250000,5000,1000)
+          m_cash =  st.slider("Cash, Checkings, and Savings",0,250000,15000,5000)
+          m_investments = st.slider("Investments",0,250000,5000,5000)
           m_equity = st.slider("Home Equity",0,2000000,250000,10000)
      #Single
      if m_status=="Single":
