@@ -49,12 +49,15 @@ with tab2:
 
     #Divorced/Separated
     if m_status=="Divorced/Separated":
-        d_agi = st.number_input("Custodial Parent Adjusted Gross Income")
-        d_agi_2 = st.number_input("Non-Custodial Parent Adjusted Gross Income")
-        d_tax =  st.number_input("Custodial Income Tax Paid")
-        d_tax_2 =  st.number_input("Non-Custodial Income Tax Paid")
-        d_untaxed = st.number_input("Custodial Untaxed Income Earned")  
-        d_untaxed = st.number_input("Non-Custodial Untaxed Income Earned")
+         st.subheader("Custodial Parent")
+          d_agi = st.number_input("Custodial Parent Adjusted Gross Income")
+          d_tax =  st.number_input("Custodial Income Tax Paid")
+          d_untaxed = st.number_input("Custodial Untaxed Income Earned")  
+
+         st.subheader("Non-Custodial Parent")      
+         d_agi_2 = st.number_input("Non-Custodial Parent Adjusted Gross Income")
+         d_tax_2 =  st.number_input("Non-Custodial Income Tax Paid")
+         d_untaxed_2 = st.number_input("Non-Custodial Untaxed Income Earned")
 
 with tab3:
      #Married 
@@ -69,11 +72,11 @@ with tab3:
           s_equity = st.number_input("Home Equity")
      #Divorced/Separated
      if m_status=="Divorced/Separated":
-          st.header("Custodial Parent")
+          st.subheader("Custodial Parent")
           d_cash =  st.number_input("Cash, Checkings, and Savings ")
           d_investments = st.number_input("Investments ")
           d_equity = st.number_input("Home Equity ")
-          st.header("Non-Custodial Parent")
+          st.subheader("Non-Custodial Parent")
           d_cash_2 =  st.number_input("Cash, Checkings, and Savings")
           d_investments_2 = st.number_input("Investments")
           d_equity_2 = st.number_input("Home Equity")
