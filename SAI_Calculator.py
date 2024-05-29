@@ -16,7 +16,8 @@ tab1, tab2 = st.tabs(["What is the Student Aid Index?",'How is the Student Aid I
 with tab1:
      st.text("The Student Aid Index.......")
 with tab2:
-     st.image('SAI_Calc.jpg')
+     st.text("SAI is calculated by taking the Parent Contribution from income plus........"
+     #st.image('SAI_Calc.jpg')
 
 
 #st.sidebar.radio('test',['Household Information','Income','Assets','Results'])
