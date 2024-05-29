@@ -50,9 +50,10 @@ with tab2:
     #Divorced/Separated
     if m_status=="Divorced/Separated":
          st.subheader("Custodial Parent")
-          d_agi = st.number_input("Custodial Parent Adjusted Gross Income")
-          d_tax =  st.number_input("Custodial Income Tax Paid")
-          d_untaxed = st.number_input("Custodial Untaxed Income Earned")  
+         
+         d_agi = st.number_input("Custodial Parent Adjusted Gross Income")
+         d_tax =  st.number_input("Custodial Income Tax Paid")
+         d_untaxed = st.number_input("Custodial Untaxed Income Earned")  
 
          st.subheader("Non-Custodial Parent")      
          d_agi_2 = st.number_input("Non-Custodial Parent Adjusted Gross Income")
