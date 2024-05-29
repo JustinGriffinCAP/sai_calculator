@@ -1,7 +1,6 @@
 import streamlit as st
 import numpy as np
 import pandas as pd
-import gspread
 saiLogo = 'C:\\Users\\Justin Griffin\\Documents\\CollegeAidPro\\VS_Code\\SAI_Calc.jpg'
 capLogo = 'C:\\Users\\Justin Griffin\\Documents\\CollegeAidPro\\VS_Code\\CAP_logo.png'
 st.image('CAP_logo.png')
