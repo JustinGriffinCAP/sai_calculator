@@ -1,9 +1,9 @@
 import streamlit as st
 import numpy as np
 import pandas as pd
-saiLogo = 'C:\\Users\\Justin Griffin\\Documents\\CollegeAidPro\\VS_Code\\SAI_Calc.jpg'
-capLogo = 'C:\\Users\\Justin Griffin\\Documents\\CollegeAidPro\\VS_Code\\CAP_logo.png'
-st.image('CAP_logo.png')
+#saiLogo = 'C:\\Users\\Justin Griffin\\Documents\\CollegeAidPro\\VS_Code\\SAI_Calc.jpg'
+#capLogo = 'C:\\Users\\Justin Griffin\\Documents\\CollegeAidPro\\VS_Code\\CAP_logo.png'
+#st.image('CAP_logo.png')
 
 #SAI Explanation
 # Click here to learn more about how SAI is calculated
